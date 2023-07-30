@@ -1,126 +1,39 @@
-body h3 {
-  color: rgb(226, 39, 39);
-  font-size: 5em !important;
+body .img_logo {
+  top: 10%;
+  left: 40%;
 }
-@media (min-width: 476px) and (max-width: 768px) {
-  body h3 {
+@media (min-width: 576px) {
+  body .title_article {
     font-size: 3em !important;
   }
 }
-body .btn-help {
-  border-radius: 20px;
-  width: 110px;
-}
-body .btn-help:hover {
-  box-shadow: 2px 2px 20px;
-}
-body .box_thebest {
-  margin-top: 2%;
-  margin-left: 15%;
-}
-@media (max-width: 1024px) {
-  body .box_thebest {
-    font-size: 0.7em !important;
+@media (min-width: 576px) {
+  body .box_logo_text {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    text-align: left;
   }
 }
-body .logo_box {
-  left: 40%;
-  top: 10%;
+body .box_logo_text h1 {
+  font-size: 3em;
 }
-body .logo_text {
-  left: 40%;
-  top: 25%;
+body .wraper_box {
+  height: 3830px;
 }
-body .electric_img {
-  left: 19%;
-}
-body .text_about_us {
-  left: 17%;
-  top: 30%;
-}
-body .text_about_us p {
-  font-size: 0.5em;
-}
-@media (max-width: 1399px) {
-  body .text_about_us p {
-    font-size: 0.4em !important;
+@media (min-width: 576px) {
+  body .wraper_box {
+    height: 1530px;
   }
 }
-@media (max-width: 1200px) {
-  body .text_about_us p {
-    font-size: 0.3em !important;
-  }
+body .img_box {
+  padding: 0;
 }
-body .wrap_gallery {
-  left: 12%;
-  top: 65px;
+body .img_box button {
+  bottom: 10%;
 }
-@media (max-width: 1400px) {
-  body .wrap_gallery {
-    left: 10%;
-  }
-}
-body .wrap_gallery img {
-  transform: scale(75%);
-  margin-top: -40px;
-}
-@media (max-width: 1400px) {
-  body .wrap_gallery img {
-    transform: scale(60%);
-    margin-top: -70px;
-  }
-}
-@media (max-width: 1200px) {
-  body .wrap_gallery img {
-    transform: scale(60%);
-    margin-top: -110px;
-  }
-}
-body .contact_us {
-  top: 600px;
-}
-@media (max-width: 1400px) {
-  body .contact_us {
-    top: 500px;
-  }
-}
-@media (max-width: 1200px) {
-  body .contact_us {
-    top: 400px;
-    left: 2%;
-  }
-}
-body .contact_us h3 {
-  left: 14%;
-  font-size: 5em !important;
-}
-body .contact_us form {
-  left: 10%;
-  top: 150px;
-}
-body .contact_us .wraper_form {
-  height: 500px;
-  top: 5%;
-  left: 13%;
-}
-body .box_contact {
-  left: 65%;
-  top: 150px;
-}
-body footer {
-  top: 1150px;
-  height: 92px;
-  background: #c4c4c4;
-}
-@media (max-width: 1400px) {
-  body footer {
-    top: 1050px;
-  }
-}
-@media (max-width: 1200px) {
-  body footer {
-    top: 950px;
-  }
+body .img_box .img_el {
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
